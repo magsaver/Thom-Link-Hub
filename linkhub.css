@@ -1,0 +1,179 @@
+.page-all{
+  font-family: 'Atlas Grotesk', sans-serif;
+  font-size: clamp(2rem, 3vw, 2.3rem);
+  height: 100vh;
+  height: 100dvh;
+
+}
+  
+ 
+
+
+.permalinks_header{
+  
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  
+}
+
+.header{
+  display:grid;
+  grid-template-columns: 8fr 1fr;
+  height: 4rem;
+  line-height: 4rem;
+  vertical-align: middle;
+ 
+  font-weight: 900;
+}
+
+.linkhubhead{
+
+  padding-left: 10px;
+
+
+  
+}
+
+.bloghead{
+
+  color: white;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+
+
+.permalinks{ 
+padding-left: 0px;
+margin-top : 0.5vh;
+
+}
+
+
+h2{
+  font-size:clamp(2rem, 3vw, 2.3rem);
+
+} 
+
+.link {
+  font-family: 'Atlas Grotesk', sans-serif;
+  color: #0000EE;
+  text-decoration: none;
+  display: block;
+  padding-left: 6px;
+
+
+}
+.link:hover {
+  text-decoration: underline;
+
+}
+.bloglink{
+  text-decoration: none;
+  
+}
+.bloglink:visited{
+  color: black
+}
+.bloglink:hover{
+  text-decoration: underline;
+}
+.linkline{
+  display: flex;
+   padding-left: 6px;
+ 
+}
+
+.linkline_darkgrey{
+  display: flex;
+  padding-left: 6px;
+  background-color: rgb(179, 179, 179);
+
+   
+ 
+}
+
+
+
+.dropdown summary {
+  cursor: pointer;
+  list-style: none;       
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.dropdown summary::-webkit-details-marker {
+  display: none;           
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  padding-left: 6px;
+  
+}
+
+.dropdown[open] .arrow {
+  transform: rotate(90deg);
+}
+
+.dropdown-content {
+ font-size: 1.5rem;
+  margin-left: 25px;
+
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-bottom: 5px;
+  margin-top: 0px;
+ 
+
+
+}
+
+.linkbullet{
+  z-index: 1;
+  
+}
+
+.scrollfeed{
+  background-color: rgb(217, 217, 217);
+  height: 60vh;
+  overflow-y: scroll;
+  z-index: 0;
+
+  
+  
+
+}
+
+
+.colophon{
+color: aliceblue;
+vertical-align: middle;
+align-items: center;;
+position: relative;
+z-index:100;
+margin-top: 0.7rem;
+  
+}
+
+.glow{
+  margin-top: 1.2rem;
+  position:relative;
+  -webkit-box-shadow:0px 0px 400px 250px #0000EE;
+-moz-box-shadow: 0px 0px 400px 250px #0000EE;
+box-shadow: 0px 0px 400px 250px #0000EE;
+z-index: 3;}
+
+.copy-footer{
+  font-size: 1rem;
+}
